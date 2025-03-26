@@ -1,0 +1,37 @@
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="heading">Shiiping Details</h5>
+          <form [formGroup]="shippingForm">
+            <mat-form-field class="w-100">
+              <mat-label>Name</mat-label>
+              <input matInput formControlName="name" />
+            </mat-form-field>
+            <mat-form-field class="w-100">
+              <mat-label>Contact</mat-label>
+              <input matInput formControlName="contact" />
+            </mat-form-field>
+            <mat-form-field class="w-100">
+              <mat-label>Address</mat-label>
+              <textarea matInput formControlName="address"></textarea>
+            </mat-form-field>
+
+            <div class="">
+              <button
+                mat-flat-button
+                matStepperNext
+                type="submit"
+                (click)="onSubmitForm()"
+                class="btn btn-outline-primary submitButton"
+              >
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

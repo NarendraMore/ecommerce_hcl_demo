@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../../../node_modules/@angular/material/fesm2022/icon.mjs"],
+  "sourcesContent": ["export { a as MAT_ICON_DEFAULT_OPTIONS, b as MAT_ICON_LOCATION, c as MAT_ICON_LOCATION_FACTORY, d as MatIcon, M as MatIconModule } from './icon-module-881c6455.mjs';\nexport { d as ICON_REGISTRY_PROVIDER, I as ICON_REGISTRY_PROVIDER_FACTORY, M as MatIconRegistry, c as getMatIconFailedToSanitizeLiteralError, b as getMatIconFailedToSanitizeUrlError, g as getMatIconNameNotFoundError, a as getMatIconNoHttpProviderError } from './icon-registry-e1064d47.mjs';\nimport '@angular/core';\nimport '@angular/common';\nimport 'rxjs';\nimport 'rxjs/operators';\nimport './common-module-a39ee957.mjs';\nimport '@angular/cdk/a11y';\nimport '@angular/cdk/bidi';\nimport '@angular/common/http';\nimport '@angular/platform-browser';\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAIA,kBAAO;AACP,uBAAO;",
+  "names": []
+}

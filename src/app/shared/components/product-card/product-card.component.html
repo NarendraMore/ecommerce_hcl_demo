@@ -1,0 +1,33 @@
+<div class="container mt-2">
+  <div class="text-right mb-2">
+    <button class="btn btn-outline-primary" routerLink="/stepper" >
+      Check To Proceed
+    </button>
+  </div>
+
+  <div class="row">
+    @for (product of productArray; track product.id) {
+    <div class="col-4 mb-2">
+      <div class="card">
+        <div class="card-header">{{ product.title }}</div>
+        <div class="card-body">
+          <img class="img" src="{{ product.thumbnail }}" alt="" />
+          <div class="contentData">
+            <div class="title">{{ product.brand }}</div>
+            <div><b>Price:</b>:{{ product.price }}</div>
+            <div><b>Rating:</b>: {{ product.rating }}</div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <button
+            (click)="addCart(product)"
+            class="btn btn-outline-primary btn-block"
+          >
+            Add To Cart
+          </button>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</div>

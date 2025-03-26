@@ -1,0 +1,6 @@
+-> Login functionality
+-> show prduct list
+-> add to card
+-> shipping form
+-> payment type
+-> place order 

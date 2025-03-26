@@ -1,0 +1,17 @@
+.img{
+    height: 60%;
+    width: 60%;
+}
+.container{
+    /* padding-top: 5%; */
+}
+.card{
+    height: 100%;
+    width: 100%;
+}
+.title{
+    text-align: center;
+}
+/* .Proceed{
+    float: right;
+} */
